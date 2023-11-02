@@ -1,0 +1,7 @@
+.app{
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  height: 100vh;
+  max-height: 100vh;
+}
