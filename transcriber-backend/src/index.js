@@ -11,7 +11,7 @@ const connectDB = require("./database/connection.js");
 const app = express();
 const port = process.env.PORT || 8082;
 
-const uploadDir = path.join(__dirname, "..", "uploads");
+const uploadDir = path.resolve(__dirname, "..", "uploads");
 
 if (!fs.existsSync(uploadDir)) {
   fs.mkdirSync(uploadDir);
