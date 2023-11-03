@@ -185,6 +185,8 @@ const Transcribe = ({ handleOpen, open, setTableData, tableData }) => {
           <Option value="English">English</Option>
           <Option value="Hindi">Hindi</Option>
           <Option value="Bengali">Bengali</Option>
+          <Option value="Bengali">Spanish</Option>
+          <Option value="Bengali">Russian</Option>
         </Select>
 
         <div className="flex items-center justify-center w-full my-6">
