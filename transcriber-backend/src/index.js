@@ -13,9 +13,9 @@ const port = process.env.PORT || 8082;
 
 const uploadDir = path.resolve(__dirname, "..", "uploads");
 
-if (!fs.existsSync(uploadDir)) {
-  fs.mkdirSync(uploadDir);
-}
+// if (!fs.existsSync(uploadDir)) {
+//   fs.mkdirSync(uploadDir);
+// }
 
 app.use(cors());
 app.use(morgan("dev"));
